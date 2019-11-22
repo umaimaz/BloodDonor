@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/findDonor"
+        android:id="@+id/find_donor"
         android:icon="@drawable/ic_search_black_24dp"
         android:title="Find donors"
         />
