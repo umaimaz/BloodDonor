@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         bottomNavView.setOnNavigationItemSelectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.container_fragment,new FindDonor_Fragment()).commit();
     }
+    public void aba(){
+        //hi i am  dumb
+
+    }
+
     //heeeyyyyyyyy xDDDDDDDDDDDDDD
         private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -53,10 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-    public void aba(){
-        //hi i am  dumb
 
-    }
 
 
 }
