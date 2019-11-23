@@ -25,6 +25,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void aba1(){
+        //hi i am  dumb
+
+    }
+    public void ab2(){
+        //hi i am  dumb
+
+    }
+
     //heeeyyyyyyyy xDDDDDDDDDDDDDD
         private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
