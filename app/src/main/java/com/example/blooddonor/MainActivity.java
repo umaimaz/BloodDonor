@@ -29,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
         //hi i am  dumb
 
     }
+    public void abac(){
+        //hi i am  umaima bachi
+
+    }
+
 
     //heeeyyyyyyyy xDDDDDDDDDDDDDD
         private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
