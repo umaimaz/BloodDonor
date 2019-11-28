@@ -2,46 +2,36 @@ package com.example.blooddonor;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
+
 
 import android.os.Bundle;
 import android.view.MenuItem;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+
 public class MainActivity extends AppCompatActivity {
+   // Toolbar toolBar1;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+       // toolBar1  = findViewById(R.id.toolbar1);
 
+       // toolBar1.setTitle(getResources().getString(R.string.blood_connect));
+       // setSupportActionBar(toolBar1);
+        //...............bottomNavigation...............
         BottomNavigationView bottomNavView = findViewById(R.id.bottom_navigation);
         bottomNavView.setOnNavigationItemSelectedListener(navListener);
+        //...............showing Find Donor Fragment On Main Screen....................
         getSupportFragmentManager().beginTransaction().replace(R.id.container_fragment,new FindDonor_Fragment()).commit();
-    }
-    public void aba(){
-        //hi i am  dumb
 
-    }
+        //...............
+      }//onCreate end
 
-    public void aba1(){
-        //hi i am  dumb
-
-    }
-    public void abac(){
-        //hi i am  umaima bachi
-
-    }
-
-
-
-    public void ab2(){
-        //hi i am  dumb
-
-    }
-
-    //heeeyyyyyyyy xDDDDDDDDDDDDDD
         private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
