@@ -6,9 +6,13 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -29,8 +33,13 @@ public class MainActivity extends AppCompatActivity {
         //...............showing Find Donor Fragment On Main Screen....................
         getSupportFragmentManager().beginTransaction().replace(R.id.container_fragment,new FindDonor_Fragment()).commit();
 
-        //...............
       }//onCreate end
+    //...............
+    public void logout(View v){
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(getApplicationContext(),login.class));
+        finish();
+    }
 
         private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="false">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".signup">
+        <TextView android:id="@+id/loginscrn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="BLOOD CONNECT"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:textColor="@color/brightRed"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/a_ssignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-140dp"
+            android:text="Sign up:"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/a_sfirstName"
+            android:layout_width="244dp"
+            android:hint="First Name"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+             />
+
+        <EditText
+
+            android:id="@+id/a_slastName"
+            android:layout_width="244dp"
+            android:hint="Last Name"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+             />
+        <EditText
+
+            android:id="@+id/a_semail"
+            android:layout_width="244dp"
+            android:hint="Email"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+
+            android:hint="Password"
+            android:id="@+id/a_spassword"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+
+        <EditText
+            android:id="@+id/a_sbloodGroup"
+            android:layout_width="244dp"
+            android:hint="Blood Group"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            />
+
+        <EditText
+            android:id="@+id/a_sgender"
+            android:layout_width="244dp"
+            android:hint="Gender"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            />
+
+
+        <EditText
+            android:id="@+id/a_saddress"
+            android:layout_width="244dp"
+            android:hint="Address"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"/>
+
+
+        <EditText
+            android:id="@+id/a_sphoneNumber"
+            android:layout_width="244dp"
+            android:hint="Phone Number"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            />
+
+
+        <EditText
+            android:id="@+id/a_slastDon"
+            android:layout_width="244dp"
+            android:hint="Last Donation"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:ems="10"
+            />
+            />
+        <Button
+            android:id="@+id/a_signup"
+            android:background="@color/brightRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Sign UP"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/a_sback"
+            android:background="@color/brightRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Back"
+            android:textColor="@color/white"/>
+
+        <ProgressBar
+
+            android:id="@+id/a_sbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+    </LinearLayout>
+</ScrollView>

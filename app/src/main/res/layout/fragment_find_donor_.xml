@@ -12,6 +12,7 @@
         android:layout_height="50dp"
         android:text="Find Donor"
         android:background="@color/white"
-        android:textSize="30dp"/>
+        android:textSize="30dp"
+        android:onClick="logout"/>
 
 </RelativeLayout>
