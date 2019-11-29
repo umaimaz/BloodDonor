@@ -9,4 +9,6 @@
     <color name="gray">#767676</color>
     <color name="blue">#0000FF</color>
     <color name="green">#00FF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="yello">#FFFF00</color>
 </resources>

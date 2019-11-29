@@ -65,8 +65,8 @@ public class Request_Fragment extends Fragment {
     private void setUpViewPager(ViewPager viewPager1) {
         PageAdapter adapter = new PageAdapter(getChildFragmentManager());
 
-        adapter.addFragment(new My_Request_Fragment(),"My Requests");
         adapter.addFragment(new Receive_Request_Fragment(),"Received Requests");
+        adapter.addFragment(new My_Request_Fragment(),"My Requests");
 
         viewPager1.setAdapter(adapter);
     }
